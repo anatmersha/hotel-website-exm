@@ -21,7 +21,7 @@ body {
     grid-column: 1 / 9;
     grid-row: 1 / 11;
     z-index: -111111;
-    background: url(../IMAGES/cramim.jpg) no-repeat fixed top;
+    background: url(../IMAGES/cramim-himg.jpg) no-repeat fixed top;
     background-size: contain;
     margin-top: 10px;
     background-size: 95%;
@@ -69,8 +69,6 @@ body {
 .navbar li a:hover {
     background-color: #8ec9bb;
 }
-
-
 .sideform {
     grid-column: 7 / 9;
     grid-row: 6 / 12;
@@ -144,7 +142,6 @@ form p {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
 .roomimgGallary {
     display: flex;
     flex-direction: row;
@@ -177,6 +174,7 @@ form p {
     background-color: wheat;
     margin: 5px;
 }
+
 .roomimgGallaryTwo #fourth {
     border-style: solid transparent 2px;
     background-color: wheat;
@@ -232,7 +230,7 @@ form p {
     opacity: 0.8;
     padding: 2px;
 }
-.secondroomimg {
+.roomimgGallaryTwo {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -245,7 +243,6 @@ form p {
 }
 @keyframes fallingprice {
     0%{
-
     }
     100% {
         font-size: 40px;
@@ -253,7 +250,7 @@ form p {
         font-weight: bold;
     }
 }
-.secondroomimg b {
+.roomimgGallaryTwo b {
     color: red;
     font-size: 20px;
     word-spacing: 3px;
@@ -276,6 +273,17 @@ form p {
     height: 100%;
     padding: 5px;
     text-align: center; 
+}
+.roomimgTwo img {
+    transition-duration: 0.6s;
+}
+.roomimgTwo img:hover {
+    width: 600px;
+    height: 500px;
+}
+.roomimgTwo img:hover {
+    width: 600px;
+    height: 500px;   
 }
 .imgcards {
     padding: 10px;
@@ -317,9 +325,6 @@ form p {
     width: 350px;
     height: 350px;
 }
-
-
-
 footer {
     text-align: center;
     padding-top: 45px;

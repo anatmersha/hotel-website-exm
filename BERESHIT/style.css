@@ -151,8 +151,8 @@ form p {
     flex-wrap: wrap;
     justify-content: center space-between space-around;
     align-items: center;
-    /* margin-right: -40px;
-    margin-left: 20px; */
+    margin-right: -40px;
+    margin-left: 20px;
     grid-column: 1 / 9;
     grid-row: 21 / 32;
 }
@@ -192,13 +192,13 @@ form p {
     background-color: wheat;
     margin: 5px;
 }
-.branchimg  {    
+.branchimg, .branches {    
     width: 32%;
     height: 100%;
     padding: 5px;
     text-align: center;
 }
-.branchimg img {
+.branchimg img, .branches img {
     transition-duration: 0.6s;
 }
 .branchimg img:hover {
@@ -238,8 +238,8 @@ form p {
     flex-wrap: wrap;
     justify-content: center space-between space-around;
     align-items: center;
-    /* margin-right: -40px;
-    margin-left: 20px; */
+    margin-right: -40px;
+    margin-left: 20px;
     grid-column: 1 / 9;
     grid-row: 33 / 44;
 }
